@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hal4">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Kata Pengantar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:text="
+Puji syukur penulis haturkan kepada  Tuhan Yang Maha Esa, karena atas berkat yang telah diberikan, sehingga penyusunan bahan ajar audiovisual dengan materi 'Klasifikasi Makhluk Hidup Kelas X' dapat diselesaikan dengan baik. Media audiovisual ini disusun  sebagai bahan ajar  mandiri. Selain itu media ini diharapkan dapat membantu peserta didik kelas X dalam memahami materi Klasifikasi Makhluk Hidup secara mudah dan menarik."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="Aplikasi ini disusun berbasis smartphone karena mobilitas tinggi, mudah, dan dapat diakses online serta offline. Adanya  aplikasi ini  diharapkan dapat menambah semangat dan pengetahuan peserta didik dalam belajar.
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:text="
+Akhir kata dengan segala kerendahan hati, penulis mengucapkan terima kasih kepada semua pihak yang mendukung dan membantu dalam menyelesaikan aplikasi ini. Penulis menyadari aplikasi ini masih jauh dari kata sempurna. Oleh karena itu penulis berharap kritik dan saran yang membangun untuk memperbaiki aplikasi selanjutnya."/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/orang"/>
+        </LinearLayout>
+
+
+
+            <TextView
+                android:text="Peta Kosep"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/diagram" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/rumah" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
