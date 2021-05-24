@@ -1,4 +1,4 @@
-package com.example.horee;
+package com.gratiasdeveloper.horee;
 
 import junit.framework.TestCase;
 

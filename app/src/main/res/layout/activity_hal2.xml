@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/bg2">
@@ -33,6 +33,7 @@
 
 
 
+
         </LinearLayout>
 
 
@@ -43,27 +44,32 @@
             android:orientation="horizontal">
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:padding="10dp"
-                android:text="Petunjuk"
-                android:layout_marginStart="20dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:background="@drawable/shape1"/>
             <ImageView
+                android:id="@+id/petunjuk1"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/lampu"/>
+            <TextView
+                android:id="@+id/petunjuk2"
+                android:layout_width="132dp"
+                android:layout_height="match_parent"
+                android:padding="10dip"
+                android:text="Petunjuk"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/shape1"/>
+
 
           <TextView
-              android:layout_width="132dp"
+              android:id="@+id/pendahuluan1"
+              android:layout_marginLeft="10dp"
+              android:layout_width="wrap_content"
               android:layout_height="match_parent"
               android:padding="10dp"
+              android:gravity="center_vertical|center_horizontal"
               android:textColor="@color/black"
               android:textStyle="bold"
               android:textSize="19sp"
@@ -71,7 +77,8 @@
               android:background="@drawable/shape1"/>
 
             <ImageView
-                android:layout_width="70dp"
+                android:id="@+id/pendahuluan2"
+                android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/kertas"/>
@@ -85,37 +92,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="290dp"
             android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:padding="10dp"
-                android:text="KI DAN KD"
-                android:layout_marginStart="20dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                android:background="@drawable/shape1"/>
             <ImageView
+                android:id="@+id/ki1"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/zoom"/>
 
             <TextView
+                android:id="@+id/ki2"
+                android:layout_width="132dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="KI DAN KD"
+                android:gravity="center_vertical|center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:background="@drawable/shape1"/>
+
+
+            <TextView
+                android:id="@+id/vm1"
+                android:layout_marginLeft="10dp"
                 android:layout_width="132dp"
                 android:layout_height="match_parent"
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="19sp"
+                android:gravity="center_vertical|center_horizontal"
                 android:text="Video Materi"
                 android:background="@drawable/shape1"/>
 
             <ImageView
-                android:layout_width="70dp"
+                android:id="@+id/vm2"
+                android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/gambar1"/>
@@ -129,37 +142,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="100dp"
-                android:layout_height="70dp"
-                android:padding="5dp"
-                android:text="Test Evaluasi"
-                android:layout_marginStart="20dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:background="@drawable/shape1"/>
             <ImageView
+                android:id="@+id/te1"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/ki"/>
 
             <TextView
+                android:id="@+id/te2"
+                android:layout_width="132dp"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:text="Test Evaluasi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@drawable/shape1"/>
+
+
+            <TextView
+                android:id="@+id/dp1"
+                android:layout_marginLeft="10dp"
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="19sp"
+                android:gravity="center_vertical|center_horizontal"
                 android:text="Daftar Pustaka"
                 android:background="@drawable/shape1"/>
 
             <ImageView
-                android:layout_width="70dp"
+                android:id="@+id/dp2"
+                android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/buku"/>
@@ -176,6 +195,7 @@
 
 
             <TextView
+                android:id="@+id/profil"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:padding="5dp"
@@ -187,6 +207,7 @@
                 android:textStyle="bold"
                 android:background="@drawable/shape1"/>
             <ImageView
+                android:id="@+id/profil2"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:scaleType="fitXY"
@@ -195,25 +216,6 @@
 
 
         </LinearLayout>
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:src="@drawable/rumah" />
-
-        </RelativeLayout>
-
-
-
-
-
 
 
     </RelativeLayout>
