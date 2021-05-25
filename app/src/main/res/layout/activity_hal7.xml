@@ -51,9 +51,6 @@
 
 
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/home"
@@ -62,7 +59,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
                 android:src="@drawable/rumah" />
-        </RelativeLayout>
+
 
 
 

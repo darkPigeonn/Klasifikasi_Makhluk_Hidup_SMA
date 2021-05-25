@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gratiasdeveloper.horee">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon_new"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".GaleryVideo"></activity>
+        <activity android:name=".LatihanSoal"></activity>
+        <activity android:name=".GaleryVideo" />
         <activity android:name=".hal7" />
-        <activity android:name=".Video.ViewGambar"/>
+        <activity android:name=".Video.ViewGambar" />
         <activity android:name=".hal6" />
         <activity android:name=".hal5" />
         <activity android:name=".hal4" />

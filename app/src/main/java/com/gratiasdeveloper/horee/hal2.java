@@ -95,7 +95,7 @@ public class hal2 extends AppCompatActivity {
         te.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mediafire.com/file/si6nlmp3qu1wdsg/LKPD_Evaluasi.docx/file"));
+                Intent implicit = new Intent(hal2.this, LatihanSoal.class);
                 startActivity(implicit);
             }
         });
@@ -103,7 +103,7 @@ public class hal2 extends AppCompatActivity {
         ite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.mediafire.com/file/si6nlmp3qu1wdsg/LKPD_Evaluasi.docx/file"));
+                Intent implicit = new Intent(hal2.this, LatihanSoal.class);
                 startActivity(implicit);
             }
         });
